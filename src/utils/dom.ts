@@ -28,11 +28,7 @@ function markElementUgly(element: Element, tracker: string): void {
 }
 
 function markListItemUgly(element: HTMLSpanElement, tracker: string): void {
-  try {
-    const parent = element.closest('.xT');
-  } catch (error) {
-    console.error('Error marking list item as ugly:', error);
-  }
+  const parent = element.closest('.xT');
 
   if (parent) {
     markElementUgly(parent, tracker);
