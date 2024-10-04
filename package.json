@@ -1,6 +1,6 @@
 {
   "name": "ugly-email-extension",
-  "version": "4.1.2",
+  "version": "5.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -22,14 +22,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OneClickLab/ugly-email-extension.git"
+    "url": "git+https://github.com/rhinot/ugly-email-extension.git"
   },
   "author": "Sonny T.",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/OneClickLab/ugly-email-extension/issues"
+    "url": "https://github.com/rhinot/ugly-email-extension/issues"
   },
-  "homepage": "https://uglyemail.com",
+  "homepage": "",
   "dependencies": {
     "gmail-js": "^1.1.12",
     "jquery": "^4.0.0-beta"

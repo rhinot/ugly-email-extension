@@ -59,6 +59,7 @@ export async function findTracker(id: string): Promise<string|null> {
 
     return tracker;
   } catch {
+    console.error('Error finding tracker:', error);
     return null;
   }
 }
